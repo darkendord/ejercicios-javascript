@@ -8,18 +8,20 @@ prompt.get(["frase"],(err,res)=>{
 
   for(let i = 0; i < frase.length; i++){
    if(frase[i] == "a" || frase[i] == "A"){
-     console.log(frase[i])
+     console.log(`La frase contiene la vocal: ${frase[i]}`)
    }else if(frase[i] == "e" || frase[i] == "E"){
-     console.log(frase[i]) 
+     console.log(`La frase contiene la vocal: ${frase[i]}`) 
    }else if(frase[i] == "i" || frase[i] == "I"){
-     console.log(frase[i]) 
+     console.log(`La frase contiene la vocal: ${frase[i]}`) 
    }else if(frase[i] == "o" || frase[i] == "O"){
-     console.log(frase[i]) 
+     console.log(`La frase contiene la vocal: ${frase[i]}`) 
    }else if(frase[i] == "u" || frase[i] == "U"){
-     console.log(frase[i]) 
+     console.log(`La frase contiene la vocal: ${frase[i]}`) 
    }
   }
 })
+
+
 
 
 
