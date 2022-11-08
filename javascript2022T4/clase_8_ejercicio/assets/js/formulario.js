@@ -6,6 +6,7 @@ const pantallaSection = document.getElementById("pantallaSection")
 const pTag = document.querySelector(".pTag")
 const icon = document.querySelectorAll(".icon")
 const icons = document.getElementById("icons")
+const resetBtn = document.getElementById("reset")
 
 
 
@@ -32,6 +33,19 @@ formulario.addEventListener("submit", (e)=>{
     textArea.value && altura && ancho ? pTag.innerText = textArea.value : textArea.value === "" ? pTag.innerText = "": null;
 
 console.log(textArea.value)
+
+
+resetBtn.addEventListener("click",()=>{
+    console.log("Btn pressed")
+    pantallaSection.classList.add("active")
+    formulario.elements.altura.value = "";
+    formulario.elements.ancho.value = "";
+    formulario.elements.color.value = "#000000";
+    textArea.value = "";
+})
+
+
+
     switch(selectedIndex){
         case 0:
             pantalla.style.background = color;
