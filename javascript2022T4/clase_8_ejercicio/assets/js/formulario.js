@@ -22,7 +22,8 @@ formulario.addEventListener("submit", (e)=>{
     pantalla.style.height = altura + "px";
     
     const h1 =  document.querySelector(".header");
-    
+
+
     altura && ancho ? h1.innerText = `Altura: ${altura}px - Ancho: ${ancho}px` : null;
 
     altura && ancho ? pantallaSection.classList.remove("active"): null;
@@ -42,6 +43,7 @@ resetBtn.addEventListener("click",()=>{
     formulario.elements.ancho.value = "";
     formulario.elements.color.value = "#000000";
     textArea.value = "";
+    icons.style.color = "#000000"
 })
 
 
@@ -58,10 +60,6 @@ resetBtn.addEventListener("click",()=>{
             break;
         case 3:
             icon.forEach((item)=>{
-                // item.addEventListener("mouseover",()=>{
-                //     item.style.color=color;
-                // })
-
                 item.addEventListener("mouseenter",()=>{
                 item.style.color = color
             })
@@ -69,12 +67,6 @@ resetBtn.addEventListener("click",()=>{
                 item.style.color = "";
             })
             })
-            // icons.addEventListener("mouseenter",()=>{
-            //     icons.style.color = color
-            // })
-            // icons.addEventListener("mouseout",()=>{
-            //     icons.style.color = "";
-            // })
             break;
     }
 
