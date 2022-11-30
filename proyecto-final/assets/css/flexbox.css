@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+background-color: #fff8de;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+section, 
+.seccion-container{
+    display: flex;
+    gap: 15px;
+}
+
+.seccion-1{
+    height: 90vh;
+    width: 50%;
+    border: 2px solid red;
+    background: hsl(285, 24%, 72%);
+}
+
+.seccion-container{
+    height: 90vh;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+    border: 2px solid red;
+}
+
+.section-2{
+    background-color: rgb(158, 2, 2);
+height: 50%;
+border: 2px solid red;
+}
+
+.section-3{
+background: hsl(180, 85%, 26%);
+height: 50%;
+border: 2px solid red;
+}

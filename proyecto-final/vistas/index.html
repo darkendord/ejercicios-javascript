@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-https://github.com/darkendord/ejercicios-javascript.gitpatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto final</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  
+<!-- Modal -->
+<div class="modal fade" id="htmlcss" tabindex="-1" aria-labelledby="htmlcssLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="htmlcssLabel">HTML y CSS basico</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="ratio ratio-16x9">
+          <iframe src="http://localhost:8200/htmlcss" title="HTML y CSS basico" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <a href="https://github.com/darkendord/ejercicios-javascript.git">Github Link</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="proyectof" tabindex="-1" aria-labelledby="proyectofLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="proyectofLabel">Proyecto Formulario</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="ratio ratio-16x9">
+          <iframe src="http://localhost:8200/formulario" title="Proyecto formulario" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <a href="https://github.com/darkendord/ejercicios-javascript.git">Github Link</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="proyecto1" tabindex="-1" aria-labelledby="proyecto1Label" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="proyecto1Label">Proyecto CV</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="ratio ratio-16x9">
+          <iframe src="http://localhost:8200/cv" title="Proyecto cv" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <a href="https://github.com/darkendord/ejercicios-javascript.git">Github Link</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="proyecto2" tabindex="-1" aria-labelledby="proyecto2Label" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="proyecto2Label">Practica Flex-box</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="ratio ratio-16x9">
+          <iframe src="http://localhost:8200/flexbox" title="Practica flexbox" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <a href="https://github.com/darkendord/ejercicios-javascript.git">Github Link</a>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+
+  <!-- Menu lateral -->
+  <nav class="navbar navbar-light fixed-top" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Proyecto Final</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Lista de proyectos</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+            <!-- Button trigger modal -->
+            
+              <button type="button" class="btn btn-info mb-3" data-bs-toggle="modal" data-bs-target="#htmlcss">
+               HTML y CSS basico
+              </button>
+            
+
+            
+              <button type="button" class="btn btn-dark mb-3" data-bs-toggle="modal" data-bs-target="#proyectof">
+                Proyecto Formulario
+              </button>
+            
+            
+              <button type="button" class="btn btn-warning mb-3" data-bs-toggle="modal" data-bs-target="#proyecto1">
+                Proyecto CV
+              </button>
+            
+            
+              <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#proyecto2">
+                Practica Flex-box
+              </button>
+            
+            
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- Hero section -->
+<div class="px-4 py-5 my-5 text-center">
+  <img class="d-block mx-auto mb-4 rounded-pill border border-primary border-5" id="image" src="../assets/imagenes/pic.jpg" alt="imsgen" width="200" height="200">
+  <h1 class="display-5 fw-bold">Adonis Paniagua</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">Esta pagina reprecenta el proyecto fial del Diplomado en desarrollo web con JavaScript en el ITLA e impartido por el maestro Julio Capellan. Esta pagina mostrara todos los proyectos que hemos realizado.</p>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <button type="button" class="btn btn-primary btn-lg px-4 gap-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">Ver Proyectos</button>
+
+    </div>
+  </div>
+</div>
+
+
+
+  
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" type="module"></script>
+</body> 
+</html>
